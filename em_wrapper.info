@@ -1,0 +1,10 @@
+name = EMWrapper
+core = 7.x
+package = Entity
+project = em_wrapper
+description = "Provides an EntityMetadataWrapper wrapper to facilitate Entity API use."
+version = "7.x-1.0"
+
+files[] = includes/EMWrapper.inc
+
+dependencies[] = entity
